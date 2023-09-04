@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-container {
+  width: 60%; 
+  margin-right: 20px;
+  overflow-x: auto;
+}
+
+.chart-container {
+  max-width: 40%; 
+  overflow: hidden;
+  height: auto;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  background-color: white; 
+  margin-top: 10px;
+}
+
+
+th {
+  background-color: white; 
+  color: black; 
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid white; 
+  padding: 10px;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2; 
+}
+
+#chart-pei {
+  padding: 10px;
+  overflow-x: auto;  
+}
+

@@ -1,0 +1,20 @@
+.Message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 10vh; 
+  text-align: center; 
+  margin-top: 20px;
+}
+
+
+.Message h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.Message p {
+  font-size: 16px;
+}
